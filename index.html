@@ -5,205 +5,362 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>responsive resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/4470/4470351.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MY RESUME</title>
 </head>
 
 <body>
-    <main class="main-content" contenteditable="true">
-        <section class="left-section">
-            <div class="left-content">
-                <!-- Write code for the left section here -->
-                <div class="profile-details">
-                    <div class="profile">
-                        <img class="profile-image" src="viplove_about.jpg" alt="Profile Image">
-                    </div>
-                    <h2 class="name">Viplove Kale</h2>
-                    <h4 class="designation">Front end Developer</h4>
-                    <hr>
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, architecto!
-                    </p>
+    <div class="container">
+        <div class="left_side">
+            <div class="profileTxt">
+                <div class="imgBox">
+                    <img src="viplove.jpg" alt="">
                 </div>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="social-media">
-                            <li class="icon"><a href="https://www.linkedin.com/in/viplove-kale-42032283/"
-                                    target="_blank"> <i class="fa fa-linkedin"></i></a></li>
-                            <li class="icon"><a href="https://github.com/viplove3541" target="_blank"> <i
-                                        class="fa fa-github"></i></a></li>
-                        </div>
-                    </div>
-                    <div class="contactInfo">
-                        <ul>
-                            <li>
-                                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                                <span class="text">+919096390727</span>
-                            </li>
-                            <li>
-                                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                                <span class="text">viplovekale@gmail.com</span>
-                            </li>
-                            <li>
-                                <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                <span class="text">Nagpur,India</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="skills">
-                        <h2 class="skills-title">Skills</h2>
-                        <div class="skill-content">
-                            <div class="skill-item">
-                                <div class="skill-name">
-                                    <h4>HTML</h4>
-                                </div>
-                                <div class="progress-bar">
-                                    <div style="width: 90%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">
-                                    <h4>CSS</h4>
-                                </div>
-                                <div class="progress-bar">
-                                    <div style="width: 90%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">
-                                    <h4>JavaScript</h4>
-                                </div>
-                                <div class="progress-bar">
-                                    <div style="width: 30%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">
-                                    <h4>React</h4>
-                                </div>
-                                <div class="progress-bar">
-                                    <div style="width: 05%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">
-                                    <h4>NodeJS</h4>
-                                </div>
-                                <div class="progress-bar">
-                                    <div style="width: 08%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">
-                                    <h4>MongoDB</h4>
-                                </div>
-                                <div class="progress-bar">
-                                    <div style="width: 10%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">
-                                    <h4>MySQL</h4>
-                                </div>
-                                <div class="progress-bar">
-                                    <div style="width: 90%;"></div>
-                                </div>
-                            </div>
+                <h2>Viplove Kale <br><span>Web Developer</span></h2>
+            </div>
+            <!-- CONTACT INFO -->
+            <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                        <span class="text">+919096390727</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <span class="text">viplovekale@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                        <span class="text">https://www.linkedin.com/in/viplove-kale-42032283/</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-square-github"></i></span>
+                        <span class="text">https://github.com/viplove3541</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span class="text">Nagpur,Maharashtra,India</span>
+                    </li>
+                </ul>
+            </div>
 
-                        </div>
+            <!-- EDUCATION -->
+            <div class=" contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+
+                    <li>
+                        <h5>2016 - 2020</h5>
+                        <h4>BE in Civil Engineering</h4>
+                        <h4>PUNE UNIVERSITY</h4>
+                        <h6>CGPA-6.54</h6>
+                    </li>
+                    <li>
+                        <h5>2011 - 2016</h5>
+                        <h4>Diploma in Civil Engineering</h4>
+                        <h4>MSBTE</h4>
+                        <h6>59.32%</h6>
+
+                    </li>
+                    <li>
+                        <h5>2010 - 2011</h5>
+                        <h4>SSC</h4>
+                        <h4>State Board Maharashtra</h4>
+                        <h6>60.20%</h6>
+                    </li>
+                </ul>
+            </div>
+
+            <!--COURSES AND CERTIFICATIONS-->
+            <div class=" contactInfo education">
+                <h3 class="title">COURSES AND CERTIFICATION</h3>
+                <ul>
+                    <li>
+                        <h5>DEC 2020-FEB 2021</h5>
+                        <h4>Full Stack Web Development</h4>
+                        <h4>VERZEO</h4>
+                        <h6>Credential ID-72386332</h6>
+                        <a href="https://verzeo.com/certificateVerification" target="_blank">
+                            <h6>Credential URL.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <h5>DEC 2020-FEB 2021</h5>
+                        <h4>Internship Program <br>In Full Stack Web Development</h4>
+                        <h4>VERZEO</h4>
+                        <h6>Credential ID-2046411182</h6>
+                        <a href="https://verzeo.com/certificateVerification" target="_blank">
+                            <h6>Credential URL.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <h5>13th MAY 2021</h5>
+                        <h4>Responsive Web Design</h4>
+                        <h4>freeCodeCamp</h4>
+                        <a href="https://freecodecamp.org/certification/viplove_18/responsive-web-design"
+                            target=_blank">
+                            <h6>Credential URL.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <h5>22nd JUNE 2022</h5>
+                        <h4>Frontend Web Development 2022</h4>
+                        <h4>UDEMY</h4>
+                        <a href="https://www.udemy.com/certificate/UC-110bb76d-97a9-447c-b9c1-f48368df1b08/"
+                            target="_blank">
+                            <h6>Credential URL.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <h5>22nd JUNE 2022</h5>
+                        <h4>Frontend Web Development 2022</h4>
+                        <h4>UDEMY</h4>
+                        <a href="https://www.udemy.com/certificate/UC-110bb76d-97a9-447c-b9c1-f48368df1b08/"
+                            target="_blank">
+                            <h6>Credential URL.</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <h5>APR 2022- PRESENT</h5>
+                        <h4>Full Stack Web Development</h4>
+                        <h4>NEWTON SCHOOL</h4>
+                        <!-- <a href="https://www.udemy.com/certificate/UC-110bb76d-97a9-447c-b9c1-f48368df1b08/"
+                            target="_blank">
+                            <h6>Credential URL.</h6> -->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- LANGUAGES  -->
+            <div class=" contactInfo Langs">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 80%;"></div>
+                        </span>
+
+                    </li>
+                    <li>
+                        <span class="text">Hindi</span>
+                        <span class="percent">
+                            <div style="width:90%;"></div>
+                        </span>
+
+                    </li>
+                    <li>
+                        <span class="text">Marathi</span>
+                        <span class="percent">
+                            <div style="width:95%;"></div>
+                        </span>
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="right_side">
+
+            <!-- SUMMARY -->
+            <div class="about">
+                <h2 class="title2">SUMMARY</h2>
+                <p>Web developer, with strong knowledge in design and integration with intuitive problem-solving
+                    skills. Proficient in HTML5,CSS3,Bootstrap,JavaScript and React.js.
+                    Passionate about implementing and launching new projects.
+                    Ability to translate business requirements into technical solutions.
+                </p>
+            </div>
+
+
+            <!-- PROJECTS -->
+            <div class="about">
+                <h2 class="title2">PROJECTS</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>TIC TAC TOE</h5>
+                    </div>
+                    <div class="text">
+                        <p>This project consists of developing and implementing a computer program that plays
+                            tic-tac-toe against another player. <br>
+                            Stack Used-HTML5,CSS3 & JavaScript.
+                        </p>
+
+                        <h4>
+                            <a class="links" href="https://viplove-tic-tac-toe.netlify.app/" target="_blank">Click
+                                Here!</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>WEATHER APP</h5>
+                    </div>
+                    <div class="text">
+                        <p> The Weather App Using JavaScript features, the user can estimate the current-day climatic
+                            probability and determine whether the day will be cloudy or sunny. In the App, the user
+                            can write down the name of any city in the world. <br>
+                            Stack Used-HTML5,CSS3 & JavaScript.
+                        </p>
+                        <h4>
+                            <a class="links" href="https://viplove3541.github.io/weather-app.io/" target="_blank">Click
+                                Here!</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>CSS BACKGROUND GENERATOR</h5>
+                    </div>
+                    <div class="text">
+                        <p>CSS background generator is a happy little website and free tool that lets you create a
+                            gradient
+                            background for websites. the site is also chock-full
+                            of colorful content about gradients <br>
+                            Stack Used-HTML5,CSS3 & JavaScript.
+                        </p>
+                        <h4>
+                            <a class="links" href="https://viplove3541.github.io/Background-color-generator-/"
+                                target="_blank">Click Here!</a>
+                        </h4>
+                    </div>
+                </div>
+                <!-- <div class="box">
+                    <div class="year_company">
+                        <h5>PORTFOLIO <br>WEBSITE</h5>
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, sit, voluptatem, nulla amet
+                            magnam et quod consectetur facere aut odit error repellat quo deserunt fugiat perferendis?
+                            Iure quam accusantium error!</p>
+                        <h4>
+                            <a class="links" href="http://" target="_blank">Click Here!</a>
+                        </h4>
+                    </div>
+                </div> -->
+                <div class="box">
+                    <div class="year_company">
+                        <h5>CALCULATOR</h5>
+                    </div>
+                    <div class="text">
+                        <p>This project was made to use the calcultor for daily use.As we know that a calculator is a
+                            machine which allows us to do math operations more easily.
+                            For example, addition, subtraction, multiply, and divide.! <br>
+                            Stack Used-HTML5 & CSS3.
+                        </p>
+                        <h4>
+                            <a class="links" href="https://viplove3541.github.io/simple-calculator/"
+                                target="_blank">Click Here!</a>
+                        </h4>
+                    </div>
+                </div>
+
+                <!--EXPERINCE-->
+                <!-- <div class="box">
+                    <div class="year_company">
+                        <h5>CSS BACKGROUND GENERATOR</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Associate</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, sit, voluptatem, nulla amet
+                            magnam et quod consectetur facere aut odit error repellat quo deserunt fugiat perferendis?
+                            Iure quam accusantium error!</p>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- TECHNICAL SKILLS -->
+            <div class="about skills">
+                <h2 class="title2">TECHNICAL SKILLS</h2>
+                <div class="box">
+                    <h4><i class="fa-brands fa-html5"></i> HTML5</h4>
+                    <div class="percent">
+                        <div style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4><i class="fa-brands fa-css3-alt"></i> CSS3</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4><i class="fa-brands fa-bootstrap"></i> Bootstrap</h4>
+                    <div class="percent">
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4><i class="fa-brands fa-square-js"></i> JavaScript</h4>
+                    <div class="percent">
+                        <div style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4><i class="fa-brands fa-react"></i> React.js</h4>
+                    <div class="percent">
+                        <div style="width: 70%;"></div>
                     </div>
                 </div>
             </div>
 
-
-        </section>
-
-        <section class="right-section">
-            <div class="right-main-content">
-
-                <!-- Write code for the right section here -->
-                <section class="about sect">
-                    <h4 class="right-title">About Me</h4>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea facere velit repudiandae
-                        iste exercitationem, voluptatum molestias optio nesciunt natus ipsum animi. Reprehenderit nulla
-                        atque laborum recusandae culpa, assumenda temporibus! Impedit veritatis minus ducimus obcaecati
-                        eaque culpa quas debitis esse repudiandae.
-                    </p>
-                </section>
-                <section class="education sect">
-                    <h4 class="right-title">Education</h4>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Degree Latest</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
-                        </div>
-                        <div class="year">
-                            <h5>Univ/college Name</h5>
-                            <h6>yyyy - yyyy</h6>
-                        </div>
+            <!--PERSONAL SKILLS-->
+            <div class="about skills">
+                <h2 class="title2">PERSONAL SKILLS</h2>
+                <div class="box">
+                    <h4>LEADERSHIP</h4>
+                    <div class="percent">
+                        <div style="width: 80%;"></div>
                     </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Degree Last</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
-                        </div>
-                        <div class="year">
-                            <h5>Univ/college Name</h5>
-                            <h6>yyyy - yyyy</h6>
-                        </div>
+                </div>
+                <div class="box">
+                    <h4>PROBLEM <br>SOLVING</h4>
+                    <div class="percent">
+                        <div style="width: 70%;"></div>
                     </div>
-                </section>
-                <section class="experience sect">
-                    <h4 class="right-title">Experience</h4>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Experience Latest</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
-                        </div>
-                        <div class="year">
-                            <h5>Organization Name</h5>
-                            <h6>yyyy - yyyy</h6>
-                        </div>
+                </div>
+                <div class="box">
+                    <h4>TEAMWORK</h4>
+                    <div class="percent">
+                        <div style="width: 85%;"></div>
                     </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Experience Last</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
-                        </div>
-                        <div class="year">
-                            <h5>Organization Name</h5>
-                            <h6>yyyy - yyyy</h6>
-                        </div>
+                </div>
+                <div class="box">
+                    <h4></i>TIME MANAGEMENT</h4>
+                    <div class="percent">
+                        <div style="width: 75%;"></div>
                     </div>
-                </section>
-                <section class="project sect">
-                    <h4 class="right-title">Project</h4>
-                    <div class="projects">
-                        <h4>Project 1</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
+                </div>
+                <div class="box">
+                    <h4>COMMUNICATION</h4>
+                    <div class="percent">
+                        <div style="width: 70%;"></div>
                     </div>
-                    <div class="projects">
-                        <h4>Project 2</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
-                    </div>
-                    <div class="projects">
-                        <h4>Project 3</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Sit nesciunt atque praesentium, nostrum fugit dolorem.</p>
-                    </div>
-                </section>
+                </div>
             </div>
-        </section>
-    </main>
+
+            <!--HOBBIES-->
+            <div class="about hobbies">
+                <h2 class="title2">hobbies</h2>
+                <ul>
+                    <li><i class="fa-solid fa-book-open-reader"></i> Reading</li>
+                    <li><i class="fa-solid fa-headphones-simple"></i> Listening music</li>
+                    <li><i class="fa-solid fa-map-location-dot"></i> Travelling</li>
+                    <li><i class="fa-solid fa-tv"></i> Watching series </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
